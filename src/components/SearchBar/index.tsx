@@ -22,7 +22,7 @@ function SearchBar(props:any) {
 
     console.log(jobCriteria);
   return (
-    <div className='flex flex-row justify-center my-10 px-10 gap-5'>
+    <div className='flex sm:flex-row flex-col justify-center my-10 items-center sm:px-10 gap-5'>
         <select name="title" onChange={handleChange} value={jobCriteria.title} className='w-64 py-3 pl-4 bg-zinc-200 font-semibold rounded-md'>
             <option value="" disabled hidden selected>Job Role</option>
             <option value="iOS Developer">iOS Developer</option>

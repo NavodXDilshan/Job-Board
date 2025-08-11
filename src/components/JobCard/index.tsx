@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import React from 'react'
+
 
 
 function propsCard(props:any) {
